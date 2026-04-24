@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.png
+*.jpg
+*.mp4
+data/failures/
+.vscode/
+
+# Virtual environments
+.venv/
+airllm_env/
+venv/
+env/
+
+# Large binaries or artifacts
+*.dll
+*.so
+*.exe
+*.bin
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Local configurations
+.env
+LLM_AGENT_API_KEY
+OPENAI_API_KEY
